@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 10, 0.18669474625787819) 26%, rgba(0, 255, 83, 0.5228292000393908) 75%);
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #e3210e;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 5vmin;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* icons are fonts and fonts must size should be changed not height */
+.button {
+  font-size: 40px;
+  cursor: pointer;
+  margin: 0 20px;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 650px) {}
